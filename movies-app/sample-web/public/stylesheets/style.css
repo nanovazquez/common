@@ -1,0 +1,154 @@
+﻿body
+{
+    background-color: #ffffff;
+    font-weight: normal;
+    font-size: 15px;
+    font-family: "Segoe UI", "Helvetica", "Tahoma", "Arial";
+    margin: 0;
+    padding: 0;
+    color: #696969;
+}
+
+p, ul
+{
+    margin-bottom: 20px;
+    line-height: 1.6em;
+}
+
+/* HEADINGS   
+----------------------------------------------------------*/
+h1, h2, h3, h4, h5, h6
+{
+    font-size: 1.5em;
+    color: #000;
+}
+
+h1
+{
+    font-size: 2em;
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+h2
+{
+    padding: 0 0 10px 0;
+    font-size: 58px;
+    font-weight: lighter;
+    color: #6cbd45;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+}
+h3
+{
+    font-size: 22px;
+    font-weight: normal;    
+    color: #939896;
+    margin-bottom: 4px;
+}
+h4
+{
+    font-size: 1.1em;
+}
+h5, h6
+{
+    font-size: 1em;
+}
+
+/* this rule styles <h2> tags that are the 
+first child of the left and right table columns */
+.rightColumn > h1, .rightColumn > h2, .leftColumn > h1, .leftColumn > h2
+{
+    margin-top: 0;
+}
+
+/* PRIMARY LAYOUT ELEMENTS   
+----------------------------------------------------------*/
+
+/* you can specify a greater or lesser percentage for the 
+page width. Or, you can specify an exact pixel width. */
+.page {
+    
+    float:left;
+    
+    margin-left: 25px;
+    margin-right: auto;
+}
+
+header, #header {
+    position: relative;
+    margin-bottom: 0px;
+    color: #000;
+    padding: 0;
+}
+
+header h1, #header h1 {
+    font-weight: normal;
+    padding: 5px 0 0 0;
+    margin: 0;
+    color: #000;
+    border: none;
+    line-height: 2em;
+    font-size: 24px;
+}
+
+#main {
+    padding: 0px 0px 0px 0px;
+    background-color: #fff;
+    margin-top: 0px;
+    margin-bottom: 10px;
+}
+
+#footer {
+    color: #999;
+    padding: 10px 0;
+    text-align: center;
+    line-height: normal;
+    margin: 0;
+    font-size: .9em;
+}
+
+/* TABLE
+----------------------------------------------------------*/
+table 
+{
+  border: solid 1px  #cccccc;
+  border-collapse: collapse;
+  font-size:14px;
+}
+
+table td 
+{
+  padding: 10px 12px;   
+  border-left: 2px solid white;
+  text-align: center;
+  min-width: 100px;
+}
+    
+table tr td:first-child
+{
+	border-left:none;
+}
+
+table tr th
+{
+  padding: 10px 5px;
+  text-align: center;
+  background-color: #fff;
+  color: #939896;
+  font-weight: normal; 
+  min-width: 100px;
+  border-bottom: 2px solid #cccccc;
+}
+
+table tr
+{
+    min-height: 32px;
+	background-color: #eeeeee;
+}
+
+table tr td
+{
+    color: #202020;
+}
+

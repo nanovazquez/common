@@ -1,0 +1,18 @@
+html
+head
+	title Movies
+body
+	div(class="page")
+		header
+			h2 Movies
+		section(id="main")
+			table
+				tr
+					th Title
+					th Genre
+					th Release Date
+					each item in movies
+						tr
+							td #{item.Title}
+							td #{item.Genre} 
+							td #{item.Date}
