@@ -1,0 +1,12 @@
+h1= title
+h2 Containers
+div(id='containers')
+	each item in containers
+		li
+			a(href='showBlobs?containerName=#{item}') #{item}
+
+if (blobs.length)
+	h2 Blobs
+	div(id='blobs')
+		each item in blobs
+			li #{item}
