@@ -1,0 +1,11 @@
+h1= title
+div
+	ul(id='blobList', class='filetree treeview')
+				
+script(type='text/javascript')
+	$(document).ready(function(){
+		$("#blobList").treeview({
+			url: "getChilds",
+			type: "GET"
+		});
+	});
