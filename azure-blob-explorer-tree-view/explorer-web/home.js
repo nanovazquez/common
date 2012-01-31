@@ -57,7 +57,6 @@ function getContainers(collection){
 }
 
 function Home () {
-	process.env.EMULATED = true;
 	this.blobService = azure.createBlobService();
 };
 
